@@ -1,0 +1,32 @@
+*{margin:0 ;padding: 0;box-sizing: border-box;}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .footer-content{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #3498DB;
+    height: fit-content;
+    width: 100vw;
+    padding-top: 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: auto;
+  font-size: 14px;
+  color: white;
+}
